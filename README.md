@@ -1,5 +1,11 @@
 # Driver Monitoring System (DMS) — Edge AI Drowsiness Detection
 
+
+
+![Benchmark Results](benchmark_results.png)
+
+
+
 Real-time, edge-deployed driver drowsiness detection. A hybrid **EAR + CNN** pipeline
 (via MediaPipe) plus an **unsupervised anomaly ensemble** runs on a **Raspberry Pi 4**,
 serves driver states over a **Flask API**, and drives a **TurtleBot3** in **Gazebo**
